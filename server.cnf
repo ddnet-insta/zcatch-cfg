@@ -16,8 +16,6 @@ git_branch=insta
 # env_build=CC=clang CXX=clang++ CXXFLAGS="-fsanitize=address,undefined -fsanitize-recover=address,undefined -fno-omit-frame-pointer" CFLAGS="-fsanitize=address,undefined -fsanitize-recover=address,undefined -fno-omit-frame-pointer"
 # env_runtime=UBSAN_OPTIONS=log_path=./logs/SAN:print_stacktrace=1:halt_on_errors=0 ASAN_OPTIONS=log_path=./logs/SAN:print_stacktrace=1:check_initialization_order=1:detect_leaks=1:halt_on_errors=0
 # env_build=CXXFLAGS=-pg CFLAGS=-pg LDFLAGS=-rdynami
-env_build=source ./lib/env_san.sh;
-env_runtime=source ./lib/env_san.sh;
 # env_build=
 # env_runtime=
 
