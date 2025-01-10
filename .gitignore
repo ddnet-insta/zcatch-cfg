@@ -2,7 +2,5 @@ password.cfg
 passwords.cfg
 secret.cfg
 secrets.cfg
-cfg-secrets-shared/
-zcatch-cfg-secrets/
-cfg-secrets/
+*-cfg-secrets/
 cfg-tournament/
